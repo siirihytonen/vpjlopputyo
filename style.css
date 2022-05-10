@@ -8,9 +8,9 @@
 
 }
 
-@import url(//db.onlinewebfonts.com/c/365834cfa7beb7ca64c00476397ddc32?family=Helvetica+Neue);
 
-@font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/365834cfa7beb7ca64c00476397ddc32.eot"); src: url("//db.onlinewebfonts.com/t/365834cfa7beb7ca64c00476397ddc32.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/365834cfa7beb7ca64c00476397ddc32.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/365834cfa7beb7ca64c00476397ddc32.woff") format("woff"), url("//db.onlinewebfonts.com/t/365834cfa7beb7ca64c00476397ddc32.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/365834cfa7beb7ca64c00476397ddc32.svg#Helvetica Neue") format("svg"); }
+
+
 .navbar{
     height: 80px;
     display: flex;
