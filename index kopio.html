@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio Siiri Hytönen</title>
+		<meta charset = "UTF-8" />
+		<meta name="description" content="Portfolio Siiri Hytönen" />
+		<meta name="keywords" content="Portfoliosivu Siiri Hytönen html" />
+		<meta name="author" content="Siiri Hytönen" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel=”stylesheet” type=”text/css” href=”normalize.css” />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="//db.onlinewebfonts.com/c/365834cfa7beb7ca64c00476397ddc32?family=Helvetica+Neue" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navbar_container"> 
+				<a href="#home" id="navbar_name"></a>
+				<div class="navbar_toggle" id="mobile-menu">
+					<span class="bar"></span>	
+					<span class="bar"></span>	
+					<span class="bar"></span>
+				</div>
+				<ul class="navbar_menu">
+					<li class="navbar_item">
+						<a href="#home" class="navbar_links" id="home-page">Home</a>
+					</li>
+					<li class="navbar_item">
+						<a href="#about" class="navbar_links" id="about-page">About me</a>
+					</li>
+					<li class="navbar_item">
+						<a href="#projects" class="navbar_links" id="project-page">Work</a>
+					</li>
+					<li class="navbar_item">
+						<a href="#contact" class="navbar_links" id="contact-page">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="hero" id="home">	
+			<div class="hero_container">
+				<video width="600" height="480" controls>
+					<source src="rt1.mp4" type="video/mp4">
+				</video>
+				<h1 class="hero_heading">Siiri Hytönen</h1>
+				<p class="hero_description"></p>
+				
+			</div>
+		</div>
+		<hr>
+		<div class="main" id="about">
+			<div class="main_container">
+				<h1 class="header"> Me</h1>
+				<div class="main_content">
+					<p> Im 21-year-old bright and passionate engineering student from Espoo.
+						I have wide variety of interests and I'm always eager to learn new things. My studies and work history have provided me a good foundation in math, UI/UX design and computer science. Being a volunteer and working in different types of environments has shown me the importance of fast problem solving and curiosity. Im creative by nature</p>
+					<button class="main_btn"><a href="CV2022.pdf">Work</a> </button>
+					<div class="social_icons">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="projects" id="projects">
+
+			<h1>PRO</h1>
+			<hr>
+			<h2>JECTS</h2>
+			<div class="project_wrapper">
+				<div class="projectcontainer">
+					<div class="project" id="rubikscube">
+						<img class="image" src="rubiks cube.png" height="500">
+						<h3 >Rubiks Cube </h3>
+						<h4>2021</h4>
+						<p>This was a course project to make a 3D model from a object of choosing.
+							I was inspired by my colourful sweater and it's resemblence to the colors
+							of Rubiks Cube.<br> <br>
+							Photoshop and Blender.
+						</p>
+					</div>
+				</div>
+				<div class="projectcontainer">
+					<div class="project" id="coding">
+						<img class="image" src="koodaus.png" height="500">
+						<h3>Coding</h3>
+						<p>As an engineer student I have a broad skills on computer science, coding.  <br>
+							In the Machine learning course I designed an algorithm to predict maximum and minimum daytime temperature. I also made gaming projects in Python and C#-course and designed
+							the graphics with PyQt5.
+							<br>
+							<br>
+							Python, C, Matlab, R, Html, Css, JS, Git
+						</p>
+					</div>
+				</div>
+				<div class="projectcontainer">
+					<div class="project" id="graphics">
+						<img class="image" src="graphicskuvat.png" height="500">
+						<h3>Graphics</h3>
+						<h4>2021</h4>
+						<p>I've always had passion towards graphic design and visual things. I edit videos on freetime and have maintained a successful Youtube channel. 
+						<br>
+						<br>
+							Adobe Photoshop, Premier Pro, Illustrator, After Effetcs, Figma, Blender
+						</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="footer_container" id="contact">
+			<div class="footer_links">
+				<h1 class="header2"> Want to know more? </h1>
+				<div class="footer_link_wrapper">
+					<div class="footer_link_items">
+						<div class="main_content">
+						<a href="mailto:siiri.hytonen@gmail.com" class="link2">EMAIL ME</a>
+						<a href="https://www.linkedin.com/in/siiri-hyt%C3%B6nen-88b074204/" class="link2">Linkedin</a>
+						<a href="https://www.facebook.com/siiri.hytonen" class="link2">Facebook</a>
+						<a href="https://www.instagram.com/s.ii.ri/" class="link2">Instagram</a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
