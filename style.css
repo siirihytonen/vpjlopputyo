@@ -333,10 +333,15 @@
 }
 
 .place_wrapper{
-
     padding: 5rem;
 
 }
+
+.place_container{
+    display: flexbox;
+}
+
+.place_container{}
 
 
 
