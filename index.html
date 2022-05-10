@@ -55,34 +55,47 @@
 			<h1>Kohteet</h1>
 			<div class="place_wrapper">
 				<div class="place_container">
-					<div class="place" id="west">
-						<h3> Länsi-Suomi</h3>
-						<p>Länsi-Suomen rannikoilta voit löytää upeita hiekkarantoja
+					<button onclick="showHideinfo('west')" class="btn" >Länsi-Suomi</button>
+					<div class="place hide" id="west">
+							<p>Länsi-Suomen rannikoilta voit löytää upeita hiekkarantoja
 							ja hyvää lohikeittoa.
-						</p>
-						<p>vinkit</p>
-						<p>Ohtakarin ranta</p>
-						<video width="400" height="280" controls>
-							<source src="rt1.mp4" type="video/mp4">
-						</video>
+							</p>
+							<p>vinkit</p>
+							<p>Ohtakarin ranta</p>
+							<video width="400" height="280" controls>
+								<source src="rt1.mp4" type="video/mp4">
+							</video>
+					</div>
+				<div class="place_container">
+					<button onclick="showHideinfo('east')" class="btn" >Itä-Suomi</button>
+					<div class="place hide" id="east">
+							<p>Itä-Suomen rannikoilta voit löytää upeita hiekkarantoja
+							ja hyvää lohikeittoa.
+							</p>
+							<p>vinkit</p>
+							<p>Ohtakarin ranta</p>
+	
 				</div>
 				<div class="place_container">
-					<div class="place" id="east">
-						<h3>Itä-Suomi</h3>
-						<p></p>
-					</div>
+					<button onclick="showHideinfo('north')" class="btn" >Pohjois-Suomi</button>
+					<div class="place hide" id="north">
+							<p>koli on kyl hieno
+							</p>
+							<p>vinkit</p>
+							<p>oli rankkaa kävellä 60 km
+							</p>
+	
 				</div>
 				<div class="place_container">
-					<div class="place" id="north">
-						<h3>Pohjois-Suomi</h3>
-						<p></p>
-					</div>
-				</div><div class="place_container">
-					<div class="place" id="south">
-						<h3>Etelä-Suomi</h3>
-						<p></p>
-					</div>
+					<button onclick="showHideinfo('south')" class="btn" >Etelä-Suomi</button>
+					<div class="place hide" id="south">
+							<p>parhaimmat skenetysmestat
+							</p>
+							<p>vinkit</p>
+							<p>Ohtakarin ranta</p>
+	
 				</div>
+				
 			</div>
 		</section>
 

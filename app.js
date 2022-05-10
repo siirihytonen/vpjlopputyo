@@ -1,5 +1,20 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
+let info = document.querySelector(".place");
+const isOn = {west:true, east:true, north:true, south:true}
+
+
+function showHideinfo(input){
+    
+    let toToggle = document.getElementById(input);
+    //isOn[input] ? toToggle.className += "hide": toToggle.classList.remove("hide");
+    toToggle.classList.toggle("hide");
+    isOn[input] = ! isOn[input];
+    
+    console.log(isOn);
+
+
+}
 
 
 const mobileMenu = () =>{
@@ -51,3 +66,17 @@ const hideMobileMenu =() => {
     }
 
 menuLinks.addEventListener('click',hideMobileMenu);
+
+
+function toggle(){
+    var x = document.getElementById("div1");
+
+    if(x.style.display === "none"){
+        x.style.display = "block";
+    }
+    else{
+        x.style.display ="none";
+    }
+
+
+}
