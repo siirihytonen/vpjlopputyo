@@ -2,7 +2,7 @@ const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
 const info = document.querySelector(".place");
 const isOn = {west:true, east:true, north:true, south:true}
-const button = {btn}
+//const button = {btn}
 
 
 function showHideinfo(input){
@@ -75,4 +75,14 @@ const hideMobileMenu =() => {
 
 menuLinks.addEventListener('click',hideMobileMenu);
 
+const InsertComment = (comment_Id,div_id) => {
+    console.log(comment_Id)
+    var comment = document.getElementById(comment_Id).value
+    var p = document.createElement("p")
+    var text = document.createTextNode(comment)
+    p.appendChild(text)
+    document.getElementById(div_id).appendChild(p)
+    console.log(comment)
 
+
+}
