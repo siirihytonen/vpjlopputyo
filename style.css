@@ -415,6 +415,7 @@
 /* kommenttikentta */
 
 .kommentti_wrapper{
+    display: flex;
 
     border: 4rem;
 
