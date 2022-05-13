@@ -2,7 +2,7 @@ const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
 const info = document.querySelector(".place");
 const isOn = {west:true, east:true, north:true, south:true}
-//const button = {btn}
+
 
 
 function showHideinfo(input){
