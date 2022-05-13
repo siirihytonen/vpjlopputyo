@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Epilogue:wght@500&family=Hahmlet:wght@500&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Epilogue:wght@500&family=Gravitas+One&family=Hahmlet:wght@500&family=Sedgwick+Ave&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -165,30 +165,30 @@
 .hero_container {
     display: flex;
     flex-direction:column;
-    background-color: #F4F7FD;
+    background-color: #f4f7fd;
     height: 980px;
     width: 100%;
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    );
-    background-image: url("tausta.JPG");
+      rgba(26, 0, 173, 0.1) ,
+      rgba(244, 247, 253, 1) 
+    ),url("tausta.JPG"),url(https://grainy-gradients.vercel.app/noise.svg);
     margin: 0 auto;
     text-align: center;
     background-size: cover;
 }
 
 .hero_heading {
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Gravitas One', cursive;
+    font-weight: lighter;
     align-self: center;
     position: fixed;
-    font-weight: 100;
-    font-size: 130px;
+    font-size: 100px;
+    text-transform: uppercase;
     margin: 32px;
     margin-top: 5rem;
-    color: #F4F7FD;
-    
+    color: rgb(244, 247, 253);
+    z-index: 0;
 }
 
 
@@ -207,10 +207,11 @@
 /* ABOUT */
 
 .main {
-    background-color:#F4F7FD;
+    background:#F4F7FD;
     padding: 4rem;
     box-shadow: inset 0 0 0 0 rgb(29,29,29);
     box-shadow: black;
+    z-index: 2;
    
 }
 
@@ -218,7 +219,7 @@
     display: flex;
     flex-direction: column;
     height: 90%;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     max-width: 1300px;
     padding: 0 3rem;
@@ -232,7 +233,8 @@
     color: #2A507D;
     align-items: center;
     margin-bottom: 1rem;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Gravitas One', cursive;
+
 
 }
 
@@ -269,6 +271,7 @@
 
 .image_wrapper{
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
 }
@@ -282,6 +285,7 @@
     width: 400px;
     padding: 1rem;
     margin-top: 2rem;
+    box-shadow: inset  10 0 0 0 rgb(29,29,29);
 
 }
     
@@ -311,9 +315,12 @@
         font-size: 1.2rem;
     }
 
-    .social_icons{
-        flex: 0 0 100%;
+    .image_wrapper img{
+      
     }
+
+
+
 }
 
 @media screen and (max-width: 850px) {
@@ -347,8 +354,10 @@
 /* Places */
 
 .places{
-    background-color: #2A507D;
+    background:linear-gradient(#F4F7FD 5%,#2A507D 90%)fixed;
     height: 100%;
+    position: relative;
+
 
 }
 
@@ -369,7 +378,7 @@
 
 .place{
     transition: 0.3s ease-in-out;
-    height: 100%;
+    height: 50%;
 
 }
 .place * {
@@ -392,7 +401,7 @@
     position: relative;
     width: 320px;
     height: 320px;
-    background: rgb(192, 106, 67); 
+    background: rgb(161, 79, 40); 
     -moz-border-radius: 80px; 
     -webkit-border-radius: 80px; 
     border-radius: 320px;
@@ -407,9 +416,11 @@
     padding: 4rem 3rem 0 5rem;
     font-weight: 200;
     text-transform: uppercase;
+    font-family: 'Gravitas One', cursive;
+
     font-size: 3rem;
-    color: #F4F7FD;
-    box-shadow: #2A507D;
+    color:#F4F7FD;
+    box-shadow: #081a31;
 
 }
 
@@ -434,11 +445,13 @@
 
 .btn{
     padding: 2rem;
-    background-color: #2A507D;
+    background: none;
     border: none;
     text-transform: uppercase;
     font-size: 2rem;
-    color: #F4F7FD;
+    color: #2A507D;
+    font-family: 'DM Serif Display', serif;
+
     
 
 }
@@ -454,7 +467,21 @@
 
 }
 
+.footer_container{
+    background-color: #2A507D;
+    padding: 5rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
 
+}
+.footermain_content p{
+    display: flex;
+    justify-content: center ;
+    color: #F4F7FD;
+    font-family: 'Gravitas One', cursive;
+
+}
 
 @media screen and (max-width: 460px) {
 
@@ -474,4 +501,5 @@
     .link2{
         margin: 0px;
     }
+}
 }
