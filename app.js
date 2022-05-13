@@ -8,9 +8,7 @@ const isOn = {west:true, east:true, north:true, south:true}
 function showHideinfo(input){
     
     let toToggle = document.getElementById(input);
-    //isOn[input] ? toToggle.className += "hide": toToggle.classList.remove("hide");
     toToggle.classList.toggle("hide");
-    toToggle.classList.slideToggle();
     isOn[input] = ! isOn[input];
     
     console.log(isOn);
