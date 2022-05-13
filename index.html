@@ -80,7 +80,6 @@
 								niin  
 							</p>
 							<p>veneillen, pyöräillen, meloen kuin patikoiden.</p>
-							<hr>
 							<p> Rauma ja Pori ovat maamme länsirannikon historiallisimpia ja silti vilkkaimpia paikkakuntia.
 								Vaasan rannikolla sijaitseva Merenkurkun saaristo on Suomen ensimmäinen UNESCO:n luonnonperintökohde. Vaasassa
 								on myös jopa yli kaksikymmentä museota, joista yhden listasimme myös vinkit osioon. 
@@ -88,11 +87,8 @@
 							<p> Kokkolassa taas pääsee juhlimaan! Kaupungissa juhlitaan niin Talvitansseja kuin Wanhan Kallen kesäviikkoja. Muista pistäytyä
 								myös täällä.
 							</p>	
-							<hr>
 							<p>Käy ainakin täällä:
-
 							</p>
-							<hr> 
 							<p>- Ohtakarin ranta</p>
 							<p>- Kuntsin modernin taiteen museo</p>
 							<p>- Kalajoen hiekkasärkät</p>
@@ -101,16 +97,19 @@
 							<video width="400" height="280" controls>
 								<source src="rt1.mp4" type="video/mp4">
 							</video>
-							<textarea name="comments" class="kommenttikentta" id="west_comment" spellcheck="false">Jätä kommentti!</textarea>
-							<input id="west_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('west_comment','west')">
+							<div class="kommentti_wrapper">
+								<textarea name="comments" class="kommenttikentta" id="west_comment" spellcheck="false">Jätä kommentti!</textarea>
+								<input id="west_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('west_comment','west')">
+							</div>
+			
 					</div>
 				<div class="place_container">
 					<button onclick="showHideinfo('east')" class="btn" >Itä-Suomi</button>
-					<div class="place hide" id="eastx">
+					<div class="place hide" id="east">
 							<p>Itä-Suomen rannikoilta voit löytää upeita hiekkarantoja
 							ja hyvää lohikeittoa.
 							</p>
-							<hr>
+					
 							<p>Yksi kuuluisimmista kohteista on kaunis Saimaan saaristo. Kuuluisin kansallismaisema taas on Koli, jossa pääsee ihailemaan vaaroja, 
 								muinaisen Karelidien vuoriston jäänteitä.</p>
 							<p>Suosittelemme ajamaan ensin Kuutostietä pohjoiseen, ja paluumatkalla Viitostietä takaisin etelään. 
@@ -118,16 +117,18 @@
 								ja jos haluaa tehdä esimerkiksi lyhyen parin päivän vaelluksen tai melontaretken, niin kaksi viikkoa on vielä sopivampi kesto kesäreissulle.</p>
 							<p>Parikkalasta pohjoiseen odottaa Imatrankoskeen verrattava perinteinen matkailuihme, Punkaharju. Suomen kuuluisin harju on 
 								kauneudeltaan maineensa veroinen, ja sen ympäristössä voi myös ihastella Suomen korkeimpia puita.</p>
-							<hr>
+					
 							<p>Käy ainakin täällä:</p>
-							<hr>
 							<p>- Saimaan saaristo</p>
 							<p>- Savonlinna</p>
 							<p>- Kolin kansallispuisto</p>
 							<p>- Imatrankoski</p>
 							<p>- Parikkalan patsaspuisto</p>
-							<textarea name="comments" class="kommenttikentta" id="east_comment" spellcheck="false">Jätä kommentti!</textarea>
-							<input id="east_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('east_comment','east')">
+							<div class="kommentti_wrapper">
+								<textarea name="comments" class="kommenttikentta" id="east_comment" spellcheck="false">Jätä kommentti!</textarea>
+								<input id="east_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('east_comment','east')">
+							</div>
+							
 	
 				</div>
 				<div class="place_container">
