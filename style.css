@@ -202,7 +202,13 @@
     }
 }
 
+.about {
 
+    z-index: 10;
+    position: relative;
+
+
+}
 
 /* ABOUT */
 
@@ -224,6 +230,7 @@
     max-width: 1300px;
     padding: 0 3rem;
     box-shadow: inset  10 0 0 0 rgb(29,29,29);
+    position: relative;
 }
 
 .header {
@@ -299,6 +306,8 @@
         width: 100%;
         height: 90%;
         margin: 0 auto;
+        z-index: 10;
+        position: relative;
 
 
     }
@@ -356,8 +365,8 @@
 .places{
     background:linear-gradient(#F4F7FD 5%,#2A507D 90%)fixed;
     height: 100%;
+    z-index: 10;
     position: relative;
-
 
 }
 
@@ -459,6 +468,7 @@
 /* kommenttikentta */
 
 .kommentti_wrapper{
+    display: flex;
 
     border: 4rem;
     padding: 5rem;
@@ -492,6 +502,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        
     }
 
     .header2{
