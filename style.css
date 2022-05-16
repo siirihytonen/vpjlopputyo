@@ -269,9 +269,8 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin-bottom:  32px;
+    margin-bottom: 32px;
     margin-right: 30px;
-    font-weight: 500ft a;
     flex: 1 0 60%;
     
 }
@@ -318,7 +317,6 @@
 
 
     }
-
 
 
     .main_content h1{
@@ -372,7 +370,7 @@
 .places{
     background:linear-gradient(#F4F7FD 5%,#2A507D 90%)fixed;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 90%;
     z-index: 10;
     position: relative;
     overflow: hidden;
@@ -380,7 +378,7 @@
 }
 
 .place_wrapper{
-    padding: 2rem 0 8rem 5rem;
+    padding: 3rem 6rem 6rem 6rem;
     display: flex;
     flex-direction: column;
     align-self: start;
@@ -388,16 +386,24 @@
 
 .place_container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
     position: relative;
-
+    height: 90%;
+    width: 100%;
 }
 
 .place{
     transition: 0.3s ease-in-out;
     height: 50%;
 
+}
+
+.place{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 0 100%;
+    justify-content: center;
 }
 .place * {
     transition: 0.3s ease-in-out;
@@ -422,20 +428,20 @@
     background: rgb(161, 79, 40); 
     -moz-border-radius: 80px; 
     -webkit-border-radius: 80px; 
-    border-radius: 320px;
+    border-radius: 100%;
     padding-left: 2rem;
     text-align: center;
     box-shadow: 1px;
+    margin: 3rem;
 
 }
 
 .places h1{
     align-self: flex-start;
-    padding: 4rem 3rem 0 5rem;
+    padding: 4rem 6rem 0 7rem;
     font-weight: 200;
     text-transform: uppercase;
     font-family: 'Gravitas One', cursive;
-
     font-size: 3rem;
     color:#F4F7FD;
     box-shadow: #081a31;
@@ -443,8 +449,7 @@
 }
 
 .places h2{
-    margin-left: 6rem;
-    margin-bottom: 3rem;
+    margin-left: 8rem;
     color: #F4F7FD;
     font-size: 1rem;
     text-transform: lowercase;
@@ -452,26 +457,31 @@
 
 .place_container p{
     color: #F4F7FD;
-    padding: 1rem;
+    padding: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
     font-family: 'DM Serif Display', serif;
 
 }
 
-.place video{
-    align-self: flex-start;
-}
+
 
 .btn{
     padding: 2.5rem;
     background: none;
     border: none;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.8rem;
     color: #2A507D;
     font-family: 'DM Serif Display', serif;
+}
 
-    
-
+.image_wrapper2{
+    padding: 3rem;
+    margin-left: 6rem;
+    align-self: flex-end;
+    flex: 2 0 50%;
 }
 
 /* kommenttikentta */
