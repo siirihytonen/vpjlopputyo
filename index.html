@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Portfolio Siiri Hytönen</title>
+		<title>Matkailusivusto</title>
 		<meta charset = "UTF-8" />
 		<meta name="description" content="Matkailusivusto" />
 		<meta name="keywords" content="SuomiMatkailu html " />
@@ -60,7 +60,6 @@
 						<img class="img" src="kuva2.jpg"></img>
 					</div>
 				</div>
-
 			</div>
 		</Section>
 
@@ -83,7 +82,7 @@
 								myös täällä.
 							</p>	
 							<div class="p_wrap">
-								<h>Käy ainakin täällä:</h>
+								<img src="lan.png" class="img1"></img>
 							</div>
 							<div class="image_wrapper2">	
 							<video width="400" height="280" controls>
@@ -93,11 +92,9 @@
 							<div class="kommentti_wrapper">
 								<textarea name="comments" class="kommenttikentta" id="west_comment" spellcheck="false">Jätä kommentti!</textarea>
 								<input id="west_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('west_comment','com_wrap_west')">
-							</div>
-							<div id="com_wrap_west" class="comment_class">  
-
-							</div>
-			
+								<div id="com_wrap_west" class="comment_class">  
+								</div>
+						</div>
 					</div>
 				<div class="place_container">
 					<button onclick="showHideinfo('east')" class="btn" >Itä-Suomi</button>
@@ -115,19 +112,16 @@
 								kauneudeltaan maineensa veroinen, ja sen ympäristössä voi myös ihastella Suomen korkeimpia puita.</p>
 					
 							<div class="p_wrap">
-								<h>Käy ainakin täällä:</h>
+								<img class="img1" src="ita.png"></img>
 							</div>
 							<div class="image_wrapper2">	
 							</div>
 							<div class="kommentti_wrapper">
 								<textarea name="comments" class="kommenttikentta" id="east_comment" spellcheck="false">Jätä kommentti!</textarea>
 								<input id="east_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('east_comment','com_wrap_east')">
-							</div>
 							<div id="com_wrap_east" class="comment_class">  
-
 							</div>
-							
-	
+						</div>
 				</div>
 				<div class="place_container">
 					<button onclick="showHideinfo('north')" class="btn" >Pohjois-Suomi</button>
@@ -146,18 +140,19 @@
 							 Katso video vaellukselta ja jätä kommentti ;-) </p>
 
 						 <div class="p_wrap">
-							<h>Käy ainakin täällä:</h>
+							<img class="img1" src="pohj.png"></img>
 						</div>
 						<div class="image_wrapper2">	
 							<video width="400" height="280" controls>
 								<source src="karhunkierros.mp4" type="video/mp4">
 							</video>
 						</div>
+						<div class="kommentti_wrapper">
 							<textarea name="comments" class="kommenttikentta" id="north_comment" spellcheck="false">Mitä pidit?</textarea>
 							<input id="north_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('north_comment','com_wrap_north')">
-						<div id="com_wrap_north" class="comment_class">  
-
+							<div id="com_wrap_north" class="comment_class">  
 						</div>
+					</div>
 						
 				</div>
 				<div class="place_container">
@@ -167,9 +162,9 @@
 							joten Etelä-Suomi on luonnollisesti täynnä kulttuurihistoriallisesti merkittäviä kohteita ja nähtävyyksiä. Alue ulottuu Imatralta
 							aina Uuteenkaupunkiin asti, ja kattaa myös sisämaan kaupungit, kuten Lahden, Hämeenlinnan ja Kouvolan. Etelä-Suomen rannikkokaupunkeja ovat Kotka, Porvoo, Turku, Naantali ja Länsi-Turunmaa. </p>
 						<p>Lahti on meidän lempikohde Etelä-Suomessa. Messilän hiihtokeskuksen ja Salpausselän kisojen lisäksi kaupunki on myös Lahden sinfoniaorkesterin
-							(Sinfonia Lahti) ja Sibelius–festivaalin koti. Myös eteläisen Suomen vaihteleva ja huikean kaunis luonto on hyvä matkakohde itsessään.</p>
+							(Sinfonia Lahti) ja Sibelius-festivaalin koti. Myös eteläisen Suomen vaihteleva ja huikean kaunis luonto on hyvä matkakohde itsessään.</p>
 						<div class="p_wrap">
-							<h>Käy ainakin täällä:</h>
+							<img class="img1" src="hel.png"></img>
 						</div>
 						<div class="image_wrapper2">
 							<img class="img" src="kuva4.jpg"></img>
@@ -177,19 +172,12 @@
 						<div class="kommentti_wrapper">
 							<textarea name="comments" class="kommenttikentta" id="south_comment" spellcheck="false">Jätä kommentti!</textarea>
 							<input id="south_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('south_comment','com_wrap_south')">
-					
+							<div id="com_wrap_south" class="comment_class">  
 						</div>
-						<div id="com_wrap_south" class="comment_class">  
-
-						</div>
-							
-							
-	
 				</div>
-				
 			</div>
+		
 		</section>
-
 		<footer class="footer_container" id="contact">
 			<div class="footer_links">
 				<div class="footer_link_wrapper">
