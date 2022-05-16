@@ -477,12 +477,41 @@
 /* kommenttikentta */
 
 .kommentti_wrapper{
+
+  color: #797b85 ;
+  width: 500px;
+  height: 60px;
+  margin-top: 20px;
+
+  border: none;
+  /*border-bottom: 2px solid rgb(255, 255, 255);*/
+  align-content: center;
+  resize: none;
+  color: transparent;
+  justify-content: center;
+  align-self: center;
+
+}
+
+.comment_class {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    padding-top: 15px;
+    background-color: rgba(237, 161, 164, 0.2);
+    width: 50%;
+    min-height: 370px;
+    align-content: center;
+    justify-content: center;
 
-    border: 4rem;
-    padding: 5rem;
+}
 
+.kommenttikentta {
 
+border: none;
+background-color: transparent;
+justify-content: center;
 
 }
 

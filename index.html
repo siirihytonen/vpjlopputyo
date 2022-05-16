@@ -95,7 +95,10 @@
 							</video>
 							<div class="kommentti_wrapper">
 								<textarea name="comments" class="kommenttikentta" id="west_comment" spellcheck="false">Jätä kommentti!</textarea>
-								<input id="west_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('west_comment','west')">
+								<input id="west_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('west_comment','com_wrap_west')">
+							</div>
+							<div id="com_wrap_west" class="comment_class">  
+
 							</div>
 			
 					</div>
@@ -122,7 +125,10 @@
 							<p>- Parikkalan patsaspuisto</p>
 							<div class="kommentti_wrapper">
 								<textarea name="comments" class="kommenttikentta" id="east_comment" spellcheck="false">Jätä kommentti!</textarea>
-								<input id="east_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('east_comment','east')">
+								<input id="east_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('east_comment','com_wrap_east')">
+							</div>
+							<div id="com_wrap_east" class="comment_class">  
+
 							</div>
 							
 	
@@ -154,9 +160,12 @@
 						<video width="400" height="280" controls>
 							<source src="karhunkierros.mp4" type="video/mp4">
 						</video>
-							<textarea name="comments" class="kommenttikentta" id="north_comment" spellcheck="false">Jätä kommentti!</textarea>
-							<input id="north_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('north_comment','north')">
-	
+							<textarea name="comments" class="kommenttikentta" id="north_comment" spellcheck="false">Mitä pidit?</textarea>
+							<input id="north_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('north_comment','com_wrap_north')">
+						<div id="com_wrap_north" class="comment_class">  
+
+						</div>
+						
 				</div>
 				<div class="place_container">
 					<button onclick="showHideinfo('south')" class="btn" >Etelä-Suomi</button>
@@ -179,7 +188,11 @@
 						</div>
 						<div class="kommentti_wrapper">
 							<textarea name="comments" class="kommenttikentta" id="south_comment" spellcheck="false">Jätä kommentti!</textarea>
-							<input id="south_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('south_comment','south')">
+							<input id="south_comment_button" type="submit" value="Submit" class="napit" onclick="InsertComment('south_comment','com_wrap_south')">
+					
+						</div>
+						<div id="com_wrap_south" class="comment_class">  
+
 						</div>
 							
 							
