@@ -174,7 +174,7 @@
       rgba(244, 247, 253, 1) 
     ),url("tausta.JPG"),url(https://grainy-gradients.vercel.app/noise.svg);
     margin: 0 auto;
-    text-align: center
+    text-align: center;
     background-size: cover;
 }
 
@@ -215,6 +215,16 @@
         
     }
 }
+
+@media screen and (max-width:768px) {
+    .hero_heading {
+        font-size: 20px;
+        align-self: center;
+    }
+}
+
+
+
 
 /* ABOUT */
 
@@ -352,6 +362,9 @@
 }
 
 @media screen and (max-width: 850px) {
+    .main{
+        padding: 3rem;
+    }
     .main_content{
         align-content: center;
         justify-content: center;
@@ -365,7 +378,9 @@
     .main_container{
         text-align: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 0 0;
+        padding: 0;
+
         
     }
 
@@ -383,6 +398,17 @@
     }
     
 
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        padding: 2rem;
+    }
+
+    .header{
+        font-size: 4vw;
+    }
+    
 }
 
 
@@ -797,4 +823,5 @@
     }
 
 
+}
 }
